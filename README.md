@@ -1,15 +1,24 @@
-# Quartz v4
+# Turning (Flavored) Markdown notes to a website : Quartz
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This repository is the source of my personal [website](https://niccolozanotti.com) where I hold my [Obsidian](https://obsidian.md)-taken notes. 
+This work is based on the [Quartz](#the-quartz-project) project.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Workflow: 
+ - the `.md` notes are located in the [content/](./content/) folder. I set this up as a [git submodule](https://git-scm.com/docs/git-submodule) to pull the notes from a private repo
+ - Static website files (HTML, CSS, JS) are built through [Quartz](https://quartz.jzhao.xyz/)
+ - The website is hosted on [Cloudflare](https://www.cloudflare.com) Pages.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+---
 
-## Sponsors
+### The Quartz project
+>Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+>Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+
+ - [Documentation](https://quartz.jzhao.xyz/)
+ - [Join the Discord Community](https://discord.gg/cRFFHYye7t)
+
+#### Sponsors of the Quartz project
 
 <p align="center">
   <a href="https://github.com/sponsors/jackyzha0">
