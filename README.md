@@ -1,4 +1,4 @@
-# Turning (Flavored) Markdown notes to a website : Quartz
+# Turning (Flavored) Markdown notes into a website : Quartz
 
 This repository is the source of my personal [website](https://niccolozanotti.com) where I hold my [Obsidian](https://obsidian.md)-taken notes. 
 This work is based on the [Quartz](#the-quartz-project) project.
