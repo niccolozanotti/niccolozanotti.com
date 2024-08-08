@@ -12,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       "About me" : "https://niccolozanotti.com/About-me",
       GitHub: "https://github.com/niccolozanotti",
       "LinkedIN": "https://www.linkedin.com/in/niccolo-zanotti/",
+      "X": "https://x.com/niccolozanotti" ,
     },
   }),
 }
