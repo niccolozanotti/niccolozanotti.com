@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "niccolozanotti.com",
-    ignorePatterns: ["private", "Templates", ".obsidian", "Daily notes", "Weekly notes", "Tutorial-notes","Scripts"],
+    ignorePatterns: ["private", "Templates", ".obsidian", "Daily notes", "Weekly notes", "Tutorial-notes","Scripts","tmp"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
