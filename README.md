@@ -1,10 +1,10 @@
-# Turning (Flavored) Markdown notes into a website : Quartz
+# 🌍 AI4ClimateScience : a Quartz-powered website
 
 This repository is the source of my personal [website](https://niccolozanotti.com) where I hold my [Obsidian](https://obsidian.md)-taken notes. 
 This work is based on the [Quartz](#the-quartz-project) project.
 
-## Workflow: 
- - the `.md` notes are located in the [content/](./content/) folder. I set this up as a [git submodule](https://git-scm.com/docs/git-submodule) to pull the notes from a private repo
+## Structure: 
+ - the `.md` files using flavored markdown syntax are located in the content/ folder, which is set up as a [git submodule](https://git-scm.com/docs/git-submodule)[^1]. 
  - Static website files (HTML, CSS, JS) are built through [Quartz](https://quartz.jzhao.xyz/)
  - The website is hosted on [Cloudflare](https://www.cloudflare.com) Pages.
 
@@ -25,3 +25,6 @@ This work is based on the [Quartz](#the-quartz-project) project.
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+---
+[^1]: As of now, I opted to keep this a private submodule as I keep all my personal notes in my main Obsidian vault.
