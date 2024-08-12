@@ -77,7 +77,7 @@ export default ((userOpts?: Partial<Options>) => {
   }
 
   const Explorer: QuartzComponent = ({
-    // cfg,
+    cfg,
     allFiles,
     displayClass,
     fileData,
