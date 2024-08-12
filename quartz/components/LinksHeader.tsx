@@ -13,19 +13,19 @@ export default (() => {
       <div>
         <div id="links-header">
           <span>
-            <img>📚</img>
+            <img alt={"Pile of books icon"}>📚</img>
             <a href="/Uni/Uni">Uni notes</a>
           </span>
           <span>
-            <img>🌍</img>
+            <img alt={"Earth icon"}>🌍</img>
             <a href="/Research/Research">Research</a>
           </span>
           <span>
-            <img>🏛️</img>
+            <img alt={"Building icon"}>🏛️</img>
             <a href="/Structure">Content structure</a>
           </span>
           <span>
-            <img>👤</img>
+            <img alt={"Person icon"}>👤</img>
             <a href="/About-me">About me</a>
           </span>
           {/*<span>*/}
