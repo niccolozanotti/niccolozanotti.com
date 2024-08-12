@@ -22,9 +22,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -33,10 +33,10 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#5f5a84",
+          tertiary: "#1f12a1",
+          highlight: "rgba(124, 118, 170, 0.15)",
+          textHighlight: "rgba(179,170,2,0.89)",
         },
         darkMode: {
           light: "#161618",
@@ -44,35 +44,41 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#8b86ad",
+          tertiary: "#9e9bba",
+          highlight: "rgba(124, 118, 170, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
     },
   },
   plugins: {
+
+    // TRANSFORMERS
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.TableOfContents(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
-      }),
+      Plugin.SyntaxHighlighting(
+      //   {
+      //   theme: {
+      //     light: "github-light",
+      //     dark: "github-dark",
+      //   },
+      //   keepBackground: false,
+      // }
+      ),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
+    // FILTERS
     filters: [Plugin.RemoveDrafts()],
+    // EMITTERS
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
