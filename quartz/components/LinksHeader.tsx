@@ -22,7 +22,7 @@ export default (() => {
       </span>
     <span>
       <img>🌎</img>
-    <a href="/Research/Research">Research</a>
+    <a href="/Projects/Projects">Projects</a>
   </span>
    <span>
       <img>👤</img>
