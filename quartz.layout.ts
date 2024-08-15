@@ -60,6 +60,6 @@ export const defaultListPageLayout: PageLayout = {
   }, globalGraph: {
     showTags: false,
   }}),
-    Component.TwitterTimeline({})
+    Component.DesktopOnly(Component.TwitterTimeline({}))
   ],
 }
