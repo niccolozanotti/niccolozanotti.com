@@ -1,0 +1,16 @@
+.twitter-timeline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.twitter-timeline {
+  width: 100%;
+  height: 50px;
+  iframe {
+    width: 100% !important;
+  }
+}

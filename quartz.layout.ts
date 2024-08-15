@@ -39,6 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
       }, globalGraph: {
       showTags: false,
       }}),
+    Component.DesktopOnly(Component.TwitterTimeline({}))
   ],
 }
 
@@ -59,5 +60,6 @@ export const defaultListPageLayout: PageLayout = {
   }, globalGraph: {
     showTags: false,
   }}),
+    Component.TwitterTimeline({})
   ],
 }
