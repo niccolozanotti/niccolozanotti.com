@@ -21,7 +21,6 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import LinksHeader from "./LinksHeader"
-import TwitterTimeline from "./TwitterTimeline"
 
 export {
   ArticleTitle,
@@ -47,5 +46,4 @@ export {
   Breadcrumbs,
   Comments,
   LinksHeader,
-  TwitterTimeline,
 }
