@@ -64,13 +64,13 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting(
-      //   {
-      //   theme: {
-      //     light: "github-light",
-      //     dark: "github-dark",
-      //   },
-      //   keepBackground: false,
-      // }
+        {
+        theme: {
+          light: "dracula-soft",
+          dark: "dracula",
+        },
+        keepBackground: true,
+      }
       ),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
