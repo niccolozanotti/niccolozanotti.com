@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🌍AI4ClimateScience",
+    pageTitle: "📓AI&Climate Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
