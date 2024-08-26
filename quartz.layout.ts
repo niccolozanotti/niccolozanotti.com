@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
        GitHub: "https://github.com/niccolozanotti/",
       "LinkedIn": "https://www.linkedin.com/in/niccolo-zanotti/",
       "X": "https://x.com/niccolozanotti" ,
-      "Source": "https://github.com/niccolozanotti/niccolozanotti.com" ,
+      "Source": "https://github.com/niccolozanotti/website" ,
     },
   }),
 }
