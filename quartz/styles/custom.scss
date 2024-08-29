@@ -11,6 +11,7 @@
   --callout-icon-pi : url("data:image/svg+xml; base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBpIj48bGluZSB4MT0iOSIgeDI9IjkiIHkxPSI0IiB5Mj0iMjAiLz48cGF0aCBkPSJNNCA3YzAtMS43IDEuMy0zIDMtM2gxMyIvPjxwYXRoIGQ9Ik0xOCAyMGMtMS43IDAtMy0xLjMtMy0zVjQiLz48L3N2Zz4="); // https://lucide.dev/icons/pi
   --callout-icon-radical : url("data:image/svg+xml; base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXJhZGljYWwiPjxwYXRoIGQ9Ik0zIDEyaDMuMjhhMSAxIDAgMCAxIC45NDguNjg0bDIuMjk4IDcuOTM0YS41LjUgMCAwIDAgLjk2LS4wNDRMMTMuODIgNC43NzFBMSAxIDAgMCAxIDE0Ljc5MiA0SDIxIi8+PC9zdmc+"); // https://lucide.dev/icons/radical
   --callout-icon-square-radical : url("data:image/svg+xml; base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNxdWFyZS1yYWRpY2FsIj48cGF0aCBkPSJNNyAxMmgybDIgNSAyLTEwaDQiLz48cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIi8+PC9zdmc+"); // https://lucide.dev/icons/square-radical
+  --callout-icon-book : url("data:image/svg+xml; base64,data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvb2stb3BlbiI+PHBhdGggZD0iTTIgM2g2YTQgNCAwIDAgMSA0IDR2MTRhMyAzIDAgMCAwLTMtM0gyeiIvPjxwYXRoIGQ9Ik0yMiAzaC02YTQgNCAwIDAgMC00IDR2MTRhMyAzIDAgMCAxIDMtM2g3eiIvPjwvc3ZnPg=="); // https://lucide.dev/icons/book-open
 
   // For callouts with (generally folded) code blocks
   &[data-callout="code"],
@@ -33,6 +34,8 @@
   // callouts containing a mathematical theorem/corollary/ proposition
   &[data-callout="theorem"],
   &[data-callout="corollary"],
+  &[data-callout="definition"],
+  &[data-callout="def"],
   &[data-callout="proposition"] {
     border: 2.5px solid var(--border);
 
@@ -40,5 +43,12 @@
     --border: #8f0303;
     --bg: rgba(0, 0, 0, 0);
     --callout-icon: var(--callout-icon-square-radical);
+  }
+  &[data-callout="book"],
+  &[data-callout="reading"] {
+    --color: #00b8d4;
+    --border: #00b8d444;
+    --bg: #00b8d410;
+    --callout-icon: var(--callout-icon-book);
   }
 }
