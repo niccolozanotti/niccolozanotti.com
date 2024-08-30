@@ -1,4 +1,4 @@
-# 🌍 AI4ClimateScience : a Quartz-powered website
+# 📓 AI&ClimateNotes : a Quartz-powered website
 
 This repository is the source of my personal [website](https://niccolozanotti.com) where I hold my [Obsidian](https://obsidian.md)-taken notes. 
 This work is based on the [Quartz](#the-quartz-project) project.
