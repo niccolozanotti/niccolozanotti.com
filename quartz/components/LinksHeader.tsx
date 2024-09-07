@@ -26,7 +26,7 @@ export default (() => {
   </span>
     <span>
       <img>👤</img>
-    <a href="/About-me">About me</a>
+    <a href="https://niccolozanotti.com">About me</a>
   </span>
     {/*<span>*/
     }
