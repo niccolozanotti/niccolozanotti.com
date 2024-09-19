@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "niccolozanotti.com",
+    baseUrl: "ai4climate.science",
     ignorePatterns: ["private", "Templates", ".obsidian",
                      "Daily notes", "Weekly notes", "Tasks",
                       "Tutorial-notes","Scripts","tmp", "assets",
