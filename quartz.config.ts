@@ -15,12 +15,12 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "niccolozanotti.com",
+    baseUrl: "ai4climate.science",
     ignorePatterns: ["private", "Templates", ".obsidian",
-                     "Daily notes", "Weekly notes", "Tasks",
-                      "Tutorial-notes","Scripts","tmp", "assets",
-                      ".gitignore"
-                     ],
+      "Daily notes", "Weekly notes", "Tasks",
+      "Tutorial-notes","Scripts","tmp", "assets",
+      ".gitignore"
+    ],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -32,25 +32,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#5f5a84",
-          tertiary: "#1f12a1",
-          highlight: "rgba(124, 118, 170, 0.15)",
+          light: "#fff8e8",
+          lightgray: "#f1e6c8",
+          gray: "#d6c4a5",
+          darkgray: "#8b7b6b",
+          dark: "#5f5243",
+          secondary: "#c7a252",
+          tertiary: "#a8773d",
+          highlight: "rgba(199, 162, 82, 0.15)",
           textHighlight: "rgba(179,170,2,0.89)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#8b86ad",
-          tertiary: "#9e9bba",
-          highlight: "rgba(124, 118, 170, 0.15)",
+          light: "#2c2b26",
+          lightgray: "#5b574c",
+          gray: "#857f71",
+          darkgray: "#e5d9c2",
+          dark: "#f2ebd4",
+          secondary: "#b8975b",
+          tertiary: "#c3a16f",
+          highlight: "rgba(199, 162, 82, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -66,13 +66,13 @@ const config: QuartzConfig = {
         priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting(
-        {
-        theme: {
-          light: "dracula-soft",
-          dark: "dracula",
-        },
-        keepBackground: true,
-      }
+          {
+            theme: {
+              light: "solarized-dark",
+              dark: "dracula-soft",
+            },
+            keepBackground: true,
+          }
       ),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
