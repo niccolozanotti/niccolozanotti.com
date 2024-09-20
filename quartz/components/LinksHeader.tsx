@@ -13,7 +13,7 @@ export default (() => {
       <div>
         <div id="links-header">
           <span>
-            <img>🏠</img>
+
           <a href="/">Home</a>
         </span>
         <span>
@@ -21,7 +21,7 @@ export default (() => {
         <a href="/Uni/Uni">Uni</a>
       </span>
     <span>
-      <img>🌎</img>
+
     <a href="/Projects/Projects">Projects</a>
   </span>
     <span>
