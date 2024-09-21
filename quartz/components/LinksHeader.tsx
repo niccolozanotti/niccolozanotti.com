@@ -18,7 +18,7 @@ export default (() => {
         </span>
         <span>
             <img>📓</img>
-        <a href="/Uni/Uni">Uni</a>
+        <a href="/Notes/Notes">Notes</a>
       </span>
     <span>
 
