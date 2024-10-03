@@ -22,7 +22,7 @@ export default (() => {
       </span>
     <span>
 
-    <a href="/Projects/Projects">Projects</a>
+    <a href="https://niccolozanotti.com/projects/">Projects</a>
   </span>
     <span>
       <img>👤</img>
