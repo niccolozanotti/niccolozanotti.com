@@ -4,7 +4,7 @@ This repository is the source of my personal [website](https://niccolozanotti.co
 This work is based on the [Quartz](#the-quartz-project) project.
 
 ## Structure: 
- - the `.md` files using flavored markdown syntax are located in the content/ folder, which is set up as a [git submodule](https://git-scm.com/docs/git-submodule). 
+ - the `.md` source files are located inside the `content` folder, which is set up as a [git submodule](https://github.com/niccolozanotti/AI4climate.science-vault). 
  - Static website files (HTML, CSS, JS) are built through [Quartz](https://quartz.jzhao.xyz/)
  - The website is hosted on [Cloudflare](https://www.cloudflare.com) Pages.
 
