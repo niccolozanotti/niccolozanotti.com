@@ -68,7 +68,7 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting(
           {
             theme: {
-              light: "solarized-dark",
+              light: "dracula-soft",
               dark: "dracula-soft",
             },
             keepBackground: true,
